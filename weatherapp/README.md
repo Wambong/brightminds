@@ -4,7 +4,10 @@ git clone https://github.com/Wambong/brightminds.git
 ```
 ```commandline
 cd brightminds/weatherapp
+
+pip install -r requirement.txt
 ```
+
 ## run the fastapi project using cmd:
 ```commandline
 uvicorn main:app --reload
